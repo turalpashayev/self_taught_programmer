@@ -2,8 +2,8 @@
 # '==' checks for equality, 'is' checks for identity
 # For example:
 
-a = 999999999999999999999999999999999999999999999999999.99999999999999999999999999999
-b = 999999999999999999999999999999999999999999999999999.99999999999999999999999999999
+a = 
+b = 
 print(a ==  b)  # True
 print(a is b)  # False
 
@@ -12,3 +12,8 @@ print(a is b)  # False
 # print(id(b))
 
 # print(id(a) == id(b))
+
+data = {
+    'name': 'Alice',
+    'age': None
+}
