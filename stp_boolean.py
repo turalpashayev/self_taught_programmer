@@ -1,4 +1,9 @@
+# Objects with bool dataypes called booleans: True or False
 
-x = None
+True
+False
 
-print(type(x))
+
+l1_analyst = False
+
+print(l1_analyst)
