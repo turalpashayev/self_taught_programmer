@@ -1,8 +1,15 @@
 # Conditional statements
+x=5
 
-x=4
 if x%2 == 0:
-    if x > 1 and x<=5:
-        print('x is even and between 1 and 5 included')
+    print('x is even')
+
+if x == 4:
+    print('x is 4')
+elif x == 5:
+    print('x is 5')
+elif x== 6:
+    print('x is 6')
 else:
-    print('x is odd')
+    print('x is something different')
+

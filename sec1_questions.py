@@ -6,3 +6,5 @@ data = {
     'title': 'Analyst',
     'Manager': None
 }
+
+print(data['Manager'])
