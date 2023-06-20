@@ -1,0 +1,17 @@
+# Built-in Functions 
+# Built-in functions are functions that are always available for use.
+
+# print() is a built-in function that prints the specified message to the screen:
+print("Hello World")
+
+# len() is a built-in function that returns the length of a string:
+len('Monty')
+
+# type() is a built-in function that returns the type of the specified object:
+type(2)
+
+# str() is a built-in function that returns a string version of the specified object:
+str(100)
+
+# int() is a built-in function that returns an integer version of the specified object:
+int('90')
