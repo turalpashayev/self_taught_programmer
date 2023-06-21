@@ -29,9 +29,9 @@
 x = 100
 
 def func_global():
-    # global x
+    global x
     print(f'Calling vairbale x before changing it: {x}')
-    # x += 1
+    x += 1
     print(f'Calling vairbale x after incrementing it by 1: {x}')
 
 func_global()

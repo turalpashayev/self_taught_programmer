@@ -1,8 +1,12 @@
-# Functions
+# Define simple function f(x) = 2x 
 
-x = 100
+def f(x):
+    result = x * 2
+    return result, x, x + 1
 
-def f():
-    global x
-    x += 1
-    print(x)
+a = list(f(3))
+print(a)
+
+a= set()
+a.add(1)
+print(a)
