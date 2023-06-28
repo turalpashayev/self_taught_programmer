@@ -19,9 +19,9 @@ locations.append(chicago)
 
 # You can store dictionary in list
 bday = {"Hemingway": "7.21.1899", "Fitzgerald": "9.24.1896"}
-my_list = [bday]
+# my_list = [bday]
 # print(my_list)
 
 # A list, tuple or dictionary can be a value in a dictionary
 ny = {"location": (40.7128, 74.0059), "celebs": ["W. Allen", "Jay Z", "K. Bacon"], "facts": {"state": "NY", "country": "America"}}
-# print(ny)
+print((ny['location'][1]))
