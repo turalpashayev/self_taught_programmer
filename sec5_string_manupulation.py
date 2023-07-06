@@ -3,6 +3,8 @@
 This is 
 a multi-line 
 string
+kasdfa
+asdkjfkd
 """
 
 # Strings like tuples, lists are iterbales
@@ -20,6 +22,7 @@ author = "Kafka"
 # print("Kafka" * 3)
 
 # Change the case of a string
-print("Kafka".upper())
-print("Kafka".lower())
+name = "Kafka"
+print(name.upper())
+print(name.lower())
 
