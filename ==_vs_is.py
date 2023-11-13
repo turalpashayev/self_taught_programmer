@@ -2,10 +2,10 @@
 # '==' checks for equality, 'is' checks for identity
 # For example:
 
-# a = 1
-# b = 1
-# print(a ==  b)  # True
-# print(a is b)  # False
+a = "7623ubeu763qr"
+b = "7623ubeu763qr"
+print(a ==  b)  # True
+print(a is b)  # False
 
 # # check location of a and b
 # # print(id(a))
@@ -21,4 +21,4 @@
 x = 10
 y = 20
 max = x if x > y else x
-print(max)
+# print(max)

@@ -28,3 +28,8 @@ if 'Micheal' in random1:
 # We can not change tuple once it is created
 # random[0] = 'John'
 
+# We can change list inside of a tuple
+
+my_tuple = ([1,2], [3])
+my_tuple[1].append(4)
+print(my_tuple)
