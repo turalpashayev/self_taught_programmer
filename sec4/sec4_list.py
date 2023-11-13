@@ -38,3 +38,8 @@ colors1 = ['black','white','gray']
 colors2 = ['red', 'green', 'blue']
 colors_all = colors1 + colors2
 # print(colors_all)
+
+# using remove method to remove an item from the list
+colors = ['red', 'green', 'blue']
+colors.remove('green')
+print(colors)

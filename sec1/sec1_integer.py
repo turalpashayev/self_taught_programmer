@@ -9,5 +9,9 @@ first_num = 3
 second_num = 4
 sum = first_num + second_num
 
-print(10/0)
+# print(10/0)
 
+# This is a comment
+print("This is a \
+      multiline \
+      comment.")

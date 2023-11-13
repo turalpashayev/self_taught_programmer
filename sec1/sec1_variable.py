@@ -8,6 +8,6 @@ import keyword
 
 name = 'for'
 
-# print(keyword.iskeyword('def'))
-print(keyword.kwlist)
+print(keyword.iskeyword(name))
+# print(keyword.kwlist)
 
