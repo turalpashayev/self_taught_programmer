@@ -6,8 +6,12 @@ If Player 2 guesses word correctly Player 1 replaces undescore with correct the 
 Otherwise Player 1 will draw a hang man.
 If Player 2 guesses the word before hangman is complete then wins otherwise lose.
 '''
+import random
 
-def hangman(word):
+def hangman():
+    word_list = ["python", "java", "computer", "hacker", "painter"]
+    random_number = random.randint(0,4)
+    word = word_list[random_number]
     wrong = 0
     stages = ["",
               "_________       ",
@@ -45,4 +49,4 @@ def hangman(word):
         print("\n".join(stages[0:wrong]))
         print("\n You lose! Word was {} \n".format(word))
 
-hangman('cat')
+hangman()
