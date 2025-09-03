@@ -13,7 +13,7 @@ print(new_l)
 
 
 # Split method in a string object
-email = 'tural_pashayev@yahoo.com'
+email = 'john_v@aa.com'
 a = email.split('@')
 # print(a[0])
 
